@@ -4,6 +4,8 @@ import java.time.LocalDate;
 
 public class Dancer extends Person{
     private String groupName;
+    
+    //CONSTRUCTOR WITHOUT ARGUMENST
 
     public Dancer(String name, String designation, LocalDate dateOfBirth, String groupName) {
         super(name, designation, dateOfBirth);
@@ -13,6 +15,7 @@ public class Dancer extends Person{
         System.out.println(getName() + " is dancing");
     }
 
+    //DEFINE GETTER & SETTER
     @Override
     public String toString() {
         return "Dancer{" +
