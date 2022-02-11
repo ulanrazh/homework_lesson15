@@ -4,6 +4,8 @@ import java.time.LocalDate;
 
 public class Programmer extends Person{
     private String companyName;
+    
+    //CONSTRUCTOR WITHOUT ARGUMENTS
 
     public Programmer(String name, String designation, LocalDate dateOfBirth, String companyName) {
         super(name, designation, dateOfBirth);
@@ -12,6 +14,8 @@ public class Programmer extends Person{
     public void coding() {
         System.out.println(getName() + " is coding");
     }
+    
+    //DEFINE GETTERS AND SETTERS
 
     @Override
     public String toString() {
